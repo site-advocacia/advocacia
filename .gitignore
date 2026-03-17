@@ -1,0 +1,40 @@
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências (Node_modules de todas as pastas)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Variáveis de Ambiente e Arquivos de Configuração Locais
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Builds e Distribuições (Assets gerados do Frontend)
+dist/
+dist-ssr/
+build/
+out/
+frontend/dist/
+
+# Pastas e Arquivos de Editores/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Outros
+coverage/
+.nyc_output/
+*.log
