@@ -23,7 +23,7 @@ const Contato = () => {
     setStatus({ type: '', message: '' });
 
     try {
-      const response = await fetch('https://advocacia-pzn1.vercel.app/api/contato', {
+      const response = await fetch('/api/contato', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
