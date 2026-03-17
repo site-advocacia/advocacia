@@ -23,7 +23,7 @@ const Contato = () => {
     setStatus({ type: '', message: '' });
 
     try {
-      const response = await fetch('/api/contato', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/contato`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

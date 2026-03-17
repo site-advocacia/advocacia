@@ -59,3 +59,5 @@ app.listen(PORT, async () => {
     console.error('Erro ao verificar/criar a tabela no banco de dados:', error.message);
   }
 });
+
+module.exports = app;
